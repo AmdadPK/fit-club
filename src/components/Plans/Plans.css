@@ -1,0 +1,95 @@
+.plans-content {
+    padding: 0 2rem;
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+}
+
+.plans {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.plans .plan {
+    background: var(--caloryCard);
+    padding: 1.5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 15rem;
+}
+
+.plans .plan:nth-child(2) {
+    background: var(--green);
+    transform: scale(1.1);
+}
+
+.plans .plan > span:nth-child(1) {
+    font-size: 2rem;
+    color: var(--green);
+}
+
+.plans .plan:nth-child(2) span:nth-child(1) {
+    color: #fff;
+}
+
+.plans .plan span:nth-child(2) {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.plans .plan span:nth-child(3) {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.plans .plan .features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.plans .plan .features .feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: .7rem;
+}
+
+.plans .plan .features .feature img {
+    height: 1rem;
+    width: 1rem;
+}
+
+.plans .plan .features .feature span {
+    font-size: .9rem;
+    font-weight: normal;
+}
+
+.plans .plan > div:nth-of-type(2) {
+    font-size: 13px;
+}
+
+.plans .plan:nth-child(2) .btn {
+    color: var(--green);
+}
+
+.plans-blur-left {
+    width: 22rem;
+    height: 20rem;
+    left: 0;
+    top: 5rem;
+}
+
+.plans-blur-right {
+    width: 22rem;
+    height: 15rem;
+    right: 0;
+    top: 15rem;
+}

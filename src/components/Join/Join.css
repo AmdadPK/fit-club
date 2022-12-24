@@ -1,0 +1,54 @@
+.join {
+    display: flex;
+    gap: 10rem;
+    padding: 0 2rem;
+}
+
+.join .left-j {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.join .left-j::before {
+    content: '';
+    height: 3px;
+    width: 10.5rem;
+    background: var(--planCard);
+    border-radius: 25%;
+    left: 0;
+    top: -4px;
+    position: absolute;
+}
+
+.join .right-j {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join .right-j .email-content {
+    display: flex;
+    gap: 3rem;
+    background: var(--gray);
+    padding: 1rem 2rem;
+}
+
+.join .right-j .email-content > input {
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    color: var(--lightgray);
+}
+
+.join .right-j .email-content > input::placeholder {
+    color: var(--lightgray);
+}
+
+.join .right-j .btn-j {
+    background-color: var(--green);
+    color: #fff;
+}
